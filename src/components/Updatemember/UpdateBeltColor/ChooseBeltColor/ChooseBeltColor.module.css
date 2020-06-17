@@ -1,0 +1,9 @@
+.biggerBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  /* border: 1px solid goldenrod; */
+  margin: 0 0 10px 0;
+  padding: 0;
+}

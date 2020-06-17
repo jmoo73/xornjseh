@@ -1,0 +1,27 @@
+.tableWrapper {
+   display: flex;
+   flex-direction: column;
+   margin: 20px 0 0 0;
+   align-items: center;
+}
+
+.rowWrapper {
+   display: flex;
+   justify-content: center;
+   padding: 0;
+   margin: 0;
+   width: 90%;
+}
+
+.dateRow {
+   font-size: 20px;
+}
+
+@media (max-width: 399px) {
+   .dateRow {
+      font-size: 14px;
+   }
+   .rowWrapper {
+      width: 100%;
+   }
+}

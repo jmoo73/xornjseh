@@ -1,0 +1,35 @@
+.attenderBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+@media (max-width: 699px) {
+  .attenderBox {
+    width: 98%;
+  }
+}
+
+.buttonMain {
+  background-color: pink;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+
+.buttonMain:focus {
+  outline: none;
+}
+
+.buttonMain:active {
+  box-shadow: 0 10px #666;
+  transform: translateY(6px);
+}

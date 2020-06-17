@@ -1,0 +1,183 @@
+.BeltButton,
+.BeltButtonBig,
+.nameButtonBig {
+   border: none;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 10px;
+   padding: 5px 3px;
+   margin: 3px 3px;
+   cursor: pointer;
+   border-radius: 25px;
+   width: 50px;
+   height: 25px;
+}
+
+.BeltButton:focus,
+.BeltButtonBig:focus,
+.nameButtonBig:focus {
+   outline: none;
+}
+
+.BeltChosen,
+.BtnPressed {
+   box-shadow: 0 10px #666;
+   transform: translateY(6px);
+}
+
+.NameChosen,
+.turnOff {
+   display: none;
+}
+
+.biggerButton {
+   width: 70px;
+   height: 35px;
+   border-radius: 20px;
+   font-size: 10px;
+}
+
+.White {
+   color: black;
+   border: 1px solid black;
+   background-color: white;
+}
+
+.Tigertot {
+   color: black;
+   border: 1px solid black;
+   background-color: white;
+   background-image: url('../../../assets/images/ktigerCorrected.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.Yellowstr {
+   border: 1px solid black;
+   color: black;
+   background-image: linear-gradient(
+      to bottom,
+      white,
+      white 30%,
+      yellow 30%,
+      yellow 70%,
+      white 70%
+   );
+}
+
+.Yellow {
+   color: black;
+   background-color: yellow;
+}
+
+.Greenstr {
+   background-image: linear-gradient(
+      to bottom,
+      yellow,
+      yellow 30%,
+      green 30%,
+      green 70%,
+      yellow 70%
+   );
+   color: white;
+}
+
+.Green {
+   background-color: green;
+   color: white;
+}
+
+.Bluestr {
+   background-image: linear-gradient(
+      to bottom,
+      green,
+      green 30%,
+      blue 30%,
+      blue 70%,
+      green 70%
+   );
+   color: white;
+}
+
+.Blue {
+   background-color: Blue;
+   color: white;
+}
+
+.Redstr {
+   background-image: linear-gradient(
+      to bottom,
+      blue,
+      blue 30%,
+      red 30%,
+      red 70%,
+      blue 70%
+   );
+   color: white;
+}
+
+.Red {
+   background-color: red;
+   color: white;
+}
+
+.Blackstr {
+   background-image: linear-gradient(
+      to bottom,
+      red,
+      red 30%,
+      black 30%,
+      black 70%,
+      red 70%
+   );
+   color: white;
+}
+
+.Bodon {
+   background-image: linear-gradient(to bottom, black, black 50%, red 50%);
+   color: white;
+}
+
+.Black {
+   background-color: black;
+   color: white;
+}
+
+
+
+@media (min-width: 400px) {
+   .BeltButton {
+      font-size: 16px;
+      padding: 6px 3px;
+      margin: 10px 5px;
+      width: 80px;
+      height: 40px;
+   }
+
+   .BeltButtonBig {
+      font-size: 16px;
+      padding: 6px 3px;
+      margin: 10px 5px;
+      width: 120px;
+      height: 60px;
+      border-radius: 50px;
+   }
+
+   .nameButtonBig {
+      font-size: 22px;
+      padding: 6px 3px;
+      margin: 10px 5px;
+      width: 120px;
+      height: 50px;
+      font-weight: bold;
+   }
+   .biggerButton {
+      width: 180px;
+      height: 75px;
+      border-radius: 70px;
+      font-size: 30px;
+      border: 7px solid rgb(167, 165, 165);
+   }
+
+}

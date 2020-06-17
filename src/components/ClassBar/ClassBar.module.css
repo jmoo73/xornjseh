@@ -1,0 +1,70 @@
+.classBarWrapper {
+   display: flex;
+   justify-items: flex-start;
+   flex-direction: column;
+   width: 90%;
+}
+
+.classBars {
+   margin-bottom: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+
+@media (max-width: 399px) {
+   .classBars {
+      /* justify-items: center; */
+      justify-content: center;
+   }
+}
+
+.buttonClass {
+   background-color: rgb(113, 142, 235);
+   border: none;
+   color: white;
+   padding: 0px 5px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 13px;
+   margin: 10px 2px;
+   cursor: pointer;
+   border-radius: 25px;
+   width: 100px;
+   height: 50px;
+}
+
+.buttonPink {
+   background-color: rgb(223, 119, 223);
+}
+
+.spanInButton {
+   font-size: 20px;
+   color: white;
+}
+
+@media (min-width: 400px) {
+   .buttonClass {
+      padding: 0px 5px;
+      font-size: 16px;
+      margin: 10px 2px;
+      width: 150px;
+      height: 50px;
+   }
+   .spanInButton {
+    font-size: 30px;
+    color: white;
+ }
+}
+
+.buttonClass:focus,
+.buttonClassPink:focus {
+   outline: none;
+}
+
+.chosenClass {
+   background-color: blue;
+   box-shadow: 0 10px #666;
+   transform: translateY(6px);
+}

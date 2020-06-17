@@ -1,0 +1,13 @@
+.membersWithABelt {
+  /* border: 1px solid pink; */
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media (max-width: 699px) {
+  .membersWithABelt {
+    width: 98%;
+  }
+}

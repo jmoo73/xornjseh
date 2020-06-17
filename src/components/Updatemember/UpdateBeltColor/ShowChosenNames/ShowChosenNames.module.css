@@ -1,0 +1,41 @@
+.choiceBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.buttonBig {
+  background-color: rgb(247, 193, 202);
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  height: 70px;
+  margin: 15px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+}
+
+@media (max-width: 399px) {
+  .buttonBig {
+    font-size: 12px;
+    height: 40px;
+    padding: 0 12px;
+  }
+}
+
+.buttonBig:focus {
+  outline: none;
+}
+
+.buttonBig:active {
+  box-shadow: 0 10px #666;
+  transform: translateY(6px);
+}

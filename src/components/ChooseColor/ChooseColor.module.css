@@ -1,0 +1,18 @@
+.currClass {
+  display: flex;
+  justify-content: center;
+}
+
+.optColor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+@media (max-width: 699px) {
+  .optColor {
+    width: 98%;
+  }
+}

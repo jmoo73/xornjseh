@@ -1,0 +1,38 @@
+
+    var n = str.includes("world"); true or false
+    var res = str.replace("Microsoft", "");
+    var res = str1.concat(str2, str3);
+
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var n = fruits.includes("Mango");
+
+    num = string.split("").filter((x) => x === "/" || x === "$" || x === "#").length;
+
+    render() Calling setState() here makes your component a contender for producing infinite loops. The render() function should be pure, meaning that it does not modify component state, it returns the same result each time it's invoked, and it does not directly interact with the browser.
+    =============CSS==================
+
+    .squares li[sunday="Sunday"] {background-color: rgb(250, 197, 197);}
+      
+    .squares li:not([board='0']) {ackground-color: black;}
+
+list-style: none; // Remove bullets
+
+[class^="col-"][class$="-12"] {
+    color:red;
+}
+
+a::after {
+  content: " (" attr(href) ")";
+}
+
+
+/* .squares li:not([board='0'])::after {
+  content: 'B'
+}
+.squares li:not([spar='0'])::after {
+  content: 'S';
+} */
+
+//Aligning text in a box
+text-align
+align-items

@@ -1,0 +1,30 @@
+.wrapper {
+   display: flex;
+   width: 80%;
+   flex-direction: column;
+   margin: 20px 0 0 0;
+}
+
+.personWrapper {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.buttonWrapper {
+   display: flex;
+   justify-content: center;
+   margin: 20px 0 0 0;
+}
+
+.buttonMain {
+   width: 100px;
+   height: 100px;
+   background-color: rgb(202, 176, 126);
+}
+
+/* ipad or monitor */
+@media (max-width: 1024px) {
+   .wrapper {
+      width: 95%;
+   }
+}

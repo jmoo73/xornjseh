@@ -1,0 +1,23 @@
+.checkInWrapper {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: center;
+}
+
+.dayBar {
+   color: black;
+   padding: 4px 8px 0 8px;
+   margin: 5px;
+}
+
+/* ipad or monitor */
+@media (min-width: 401px) {
+   .dayBar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 3px 12px 6px 12px;
+      margin: 5px;
+   }
+}

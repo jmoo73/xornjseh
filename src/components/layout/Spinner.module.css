@@ -1,0 +1,23 @@
+.bGround {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-color: black;
+  overflow: hidden;
+}
+
+.pic {
+  width: 20%;
+  margin: 20% auto;
+  display: block;
+}
+
+@media (min-width: 700px) {
+  .pic {
+    width: 10%;
+    margin: 10% auto;
+  }
+}

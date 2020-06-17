@@ -1,0 +1,15 @@
+.membersWithBelt {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   width: 100%;
+   /* border: 1px solid blue; */
+   margin: 20px 0 20px 0;
+   padding: 0;
+}
+
+@media (max-width: 399px) {
+   .membersWithBelt {
+      margin: 0px 0 10px 0;
+   }
+}

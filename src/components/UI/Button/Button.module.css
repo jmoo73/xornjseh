@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+
+.Button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.Button:focus {
+  outline: none;
+}
+
+/* .Button:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+} */
+
+.Button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.Success {
+  color: #5C9210;
+}
+
+.Success:active {
+  color: rgb(253, 120, 213);
+}
+
+.Danger {
+  color: #944317;
+}
+
+.Submit {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(144, 199, 144);
+  border-radius: 25px;
+}
+
+.Submit:active {
+  box-shadow: 0 10px #666;
+  transform: translateY(6px);
+}
+
+.confirmName {
+  height: 100px;
+  background-color: rgb(144, 199, 144);
+  border-radius: 50px;
+  font-size: 35px;
+  padding: 0 40px;
+  align-items: center;
+  text-align: center;
+  font-family: 'ABeeZee', sans-serif;
+  margin: 0;
+}
+
+.confirmName:active, .finalSubmit:active {
+  box-shadow: 0 10px #666;
+  transform: translateY(6px);
+}
+
+.finalSubmit {
+  width: 250px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50px;
+  font-size: 40px;
+  color: white;
+  font-family: 'ABeeZee', sans-serif;
+}

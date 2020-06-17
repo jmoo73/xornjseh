@@ -1,0 +1,11 @@
+.LineWrapper {
+   display: flex;
+   justify-content: center;
+}
+
+.Line {
+   background-color: grey;
+   width: 95%;
+   height: 5px;
+   margin: 8px 0;
+}

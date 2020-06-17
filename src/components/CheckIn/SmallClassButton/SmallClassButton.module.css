@@ -1,0 +1,43 @@
+.wrapper {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
+
+.smallClassButton {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(154, 154, 218);
+   font-size: 10px;
+   width: 100px;
+   height: 25px;
+   border-radius: 12.5px;
+   border: none;
+   color: white;
+   margin: 2px 6px;
+   cursor: pointer;
+   padding: none;
+}
+
+.smallClassButton:focus {
+   outline: none;
+}
+
+.chosenClass {
+   background-color: rgb(252, 126, 231);
+   box-shadow: 0 10px #666;
+   transform: translateY(2px);
+}
+
+/* iphone */
+@media (max-width: 400px) {
+   .smallClassButton {
+      font-size: 8px;
+      width: 80px;
+      height: 20px;
+      border-radius: 8px;
+      margin: 5px;
+   }
+   
+}

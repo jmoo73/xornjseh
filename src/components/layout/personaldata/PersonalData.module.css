@@ -1,0 +1,19 @@
+.personData {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.alnCenter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 98%;
+}
+
+.sqrGraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}

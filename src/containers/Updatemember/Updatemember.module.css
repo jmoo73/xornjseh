@@ -1,0 +1,66 @@
+.outerBox {
+   display: grid;
+   justify-items: center;
+   /* border: 1px solid red; */
+}
+
+.buttonBox {
+   margin: 50px auto;
+   width: 300px;
+   display: flex;
+   justify-content: center;
+}
+
+.leftButton {
+   background-color: rgb(241, 163, 248);
+   border: none;
+   margin: 0px 5px 0px 0px;
+   padding: 0px;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   font-size: 18px;
+   border-radius: 30px 0px 0px 30px;
+   margin: 0 4px 20px 0;
+   width: 160px;
+   height: 50px;
+   font-weight: bold;
+}
+
+.rightButton {
+   background-color: rgb(147, 171, 247);
+   border-style: none;
+   color: white;
+   width: 160px;
+   height: 50px;
+   border-radius: 0px 30px 30px 0px;
+   margin: 0 0 20px 4px;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 0px 0px 0px 5px;
+   margin: 0px;
+   cursor: pointer;
+}
+
+@media (max-width: 399px) {
+   .rightButton,
+   .leftButton {
+      font-size: 12px;
+      width: 120px;
+   }
+   .buttonBox {
+      margin: 30px auto;
+      width: 90%;
+   }
+}
+
+.clicked {
+   outline: none;
+   box-shadow: 0 10px #666;
+   transform: translateY(6px);
+}
+
+.leftButton:focus,
+.rightButton:focus {
+   outline: none;
+}

@@ -1,0 +1,16 @@
+.AuthHomeWrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 50px 0 0 0;
+}
+
+.checkInWrapper {
+   position: fixed;
+   left: 0px;
+   top: 0px;
+   z-index: 100;
+   display: flex;
+   width: 100%;
+}

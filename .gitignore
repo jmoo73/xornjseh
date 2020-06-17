@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# credential
+ggleSheetID.json
+/src/client_secret.json
+/src/URL.json

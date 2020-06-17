@@ -1,0 +1,113 @@
+.cellBase {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 120px;
+   background-color: rgb(141, 140, 140);
+   text-align: center;
+   margin: 1px 2px;
+   font-size: 12px;
+   height: 50px;
+}
+
+.dataCell {
+   color: white;
+}
+
+.dataCell .title {
+   font-size: 14px;
+}
+
+.cellBase .number {
+   color: white;
+   font-size: 20px;
+}
+
+.titleCell {
+   background-color: rgb(121, 121, 77);
+   color: white;
+   font-size: 17px;
+}
+
+.activityTitleCell {
+   background-color: rgb(185, 185, 114);
+   height: 30px;
+   font-size: 17px;
+   color: white;
+}
+
+.headerCell {
+   background-color: goldenrod;
+   color: white;
+   font-size: 20px;
+}
+
+.emptyCorner {
+   background-color: black;
+}
+
+.totalHeader {
+   background-color: rgb(143, 80, 80);
+   color: white;
+   font-size: 17px;
+}
+
+.totalCell {
+   background-color: rgb(202, 113, 113);
+   color: white;
+   font-size: 20px;
+}
+
+.activityCell {
+   background-color: rgb(185, 184, 184);
+   height: 30px;
+}
+
+@media (max-width: 399px) {
+   .cellBase {
+      margin: 0;
+      font-size: 6px;
+      height: 40px;
+   }
+
+   .emptyCorner {
+     height: 20px;
+   }
+
+   .dataCell .title {
+      font-size: 8px;
+   }
+
+   .cellBase .number {
+      font-size: 10px;
+   }
+
+   .titleCell {
+      font-size: 8px;
+   }
+
+   .activityTitleCell {
+      font-size: 8px;
+      height: 15px;
+   }
+
+   .activityCell {
+     height: 15px;
+   }
+
+   .headerCell {
+      font-size: 10px;
+      height: 20px;
+   }
+
+   .totalHeader {
+      font-size: 10px;
+      height: 20px;
+   }
+
+   .totalCell {
+      font-size: 10px;
+      height: 20px;
+
+   }
+}
